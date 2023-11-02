@@ -86,9 +86,6 @@ namespace GithubActionsLab
         {
             return math.pow(double.Parse(x),double.Partse(y));
         }
-        {
-            throw new NotImplementedException();
-        }
     }
 
 
