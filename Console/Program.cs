@@ -84,6 +84,9 @@ namespace GithubActionsLab
         // Implement this method following a similar pattern as above
         public static double Power(string x, string y)
         {
+            return math.pow(double.Parse(x),double.Partse(y));
+        }
+        {
             throw new NotImplementedException();
         }
     }
